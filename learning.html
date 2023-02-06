@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <script src="https://kit.fontawesome.com/5c60aed4ce.js" crossorigin="anonymous"></script>
+        <title>My Webpage</title>
+        <style>
+            section{
+                padding: 60px 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-md navbar-light border-bottom border-top border-4 border-secondary bg-white sticky-top" >
+            <div class="container-xxl">
+                <a href="/index.html" class="navbar-brand">
+                    <i class="bi bi-send-plus"></i>
+                    <span class="fw-bold text-secondary">
+                        Sumin Park
+                    </span>
+                </a>
+
+                <!-- toggle button for mobile nav-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/projects.html" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/learning.html" class="nav-link">
+                                <span class="border border-2 rounded-circle px-2 py-2">Learning</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-md-none">
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-md-inline">
+                            <a href="#resume" class="btn btn-secondary">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/cats.html" class="nav-link">
+                                <img src="/assets/witch-cat.png" alt="cat icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="intro">
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-6 text-center text-md-start">
+                        <h2 class="display-2">
+                            Learning Journey
+                        </h2>
+                    </div>
+                    <div class="col-9 col-md-6 text-sm-center text-md-start align-text-bottom">
+                        <p class="lead my-4 fw-bold muted">Just simple collection of my journey to develop my software skill</p>
+                        <hr>
+                        <p class="lead my-4 muted align-bottom">
+                            Software is a career in which one should always learn new languages, frameworks, and technology. Learning new tricks fast and enjoying that process is one of my strongest drive.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="timeline_area section_padding_130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Timeline Area-->
+                        <div class="apland-timeline-area">
+                            <!-- Single Timeline Content-->
+                            <div class="single-timeline-area">
+                                <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                                    <p>2023 Jan ~ Feb</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                            <div class="timeline-icon"><i class="fa-sharp fa-solid fa-book-open-reader"></i></div>
+                                            <div class="timeline-text">
+                                                <h6>Took CS50x, online harvard CS course</h6>
+                                                <p>Refresh mateirals from college, from c to python, and HTML+CSS+JS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                            <div class="timeline-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                                            <div class="timeline-text">
+                                                <h6>Fixed bug</h6>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    -->
+                                </div>
+                            </div>
+                            <!-- Single Timeline Content-->
+                            <div class="single-timeline-area">
+                                <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                                    <p>2016 ~ 2021</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                            <div class="timeline-icon"><i class="fa-sharp fa-solid fa-graduation-cap"></i></div>
+                                            <div class="timeline-text">
+                                                <h6>Graduated UIC</h6>
+                                                <p>College of Engineering, BA in Computer Science</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="footer" class="bg-light">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6 text-start">
+
+                    </div>
+                    <div class="col-6 text-end px-4">
+                        <i class="bi bi-envelope-at"></i>
+                        <span class="text-start text-muted">suminp12@gmail.com</span>
+                        <a href="https://www.facebook.com/sumin.park.58" target="_blank" class="mx-2"><i class="bi text-secondary bi-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/suminp12/" target="_blank" class="mx-2"><i class="bi text-secondary bi-linkedin"></i></a>
+                        <a href="https://github.com/monkey96" target="_blank" class="mx-2"><i class="bi text-secondary bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <span class="lead my-2 text-muted text-end">2023 Created by Sumin Park</span>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
